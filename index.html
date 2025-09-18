@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TihoPod – Главная</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">TihoPod</div>
+      <!-- Кнопка выбора модели, при нажатии откроется мобильное меню -->
+      <nav class="main-nav">
+        <a href="#" class="choose-cabin-btn">Выбрать кабину</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Выпадающее мобильное меню (по клику на "Выбрать кабину") -->
+  <div class="nav-overlay" id="navMenu">
+    <div class="nav-menu">
+      <a href="#" class="close-menu">&times;</a>
+      <h2>Выбрать модель</h2>
+      <ul class="cabin-list">
+        <li><a href="product-one.html">TihoPod One</a></li>
+        <li><a href="product-two.html">TihoPod Two</a></li>
+        <li><a href="product-twoplus.html">TihoPod Two+</a></li>
+        <li><a href="product-four.html">TihoPod Four</a></li>
+      </ul>
+      <p class="buy-notice">* Любую из кабин вы можете купить себе в офис!</p>
+      <div class="contacts">
+        <h3>Контакты</h3>
+        <p>Телефон: <a href="tel:+79999999999">+7 999 999-99-99</a></p>
+        <p>E-mail: <a href="mailto:info@tihopod.com">info@tihopod.com</a></p>
+        <p><a href="#">WhatsApp</a> | <a href="#">Telegram</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Баннер с CTA -->
+  <section class="hero">
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="videos/tihopod-promo.mp4" type="video/mp4">
+    Ваш браузер не поддерживает видео-тег.
+  </video>
+  <div class="hero-content">
+    <h1>TihoPod — аренда акустических кабин на шумные мероприятия</h1>
+    <p>Идеальное решение для комфортной работы и переговоров даже в самых шумных местах.</p>
+    <a href="#models" class="btn primary-btn">Выбрать модель</a>
+  </div>
+</section>
+
+  <!-- О сервисе -->
+  <section class="about">
+    <h2>О сервисе</h2>
+    <p>TihoPod предоставляет в аренду звуконепроницаемые кабин ы для офисов и мероприятий. Вы получаете полностью оборудованное место для звонков, встреч или уединенной работы. Доставка, установка и сервисное обслуживание включены в стоимость аренды.</p>
+  </section>
+
+  <!-- Выбор моделей кабин -->
+  <section class="models" id="models">
+    <h2>Выбор модели кабины</h2>
+    <div class="model-cards">
+      <!-- Карточка модели 1 -->
+      <div class="model-card">
+        <div class="model-image">
+          <img src="images/tihopod-one.png" alt="TihoPod One" />
+        </div>
+        <h3>TihoPod One</h3>
+        <p>Кабина для 1 человека</p>
+        <a href="product-one.html" class="btn secondary-btn">Узнать больше</a>
+      </div>
+  
+      <!-- Карточка модели 2 -->
+      <div class="model-card">
+        <div class="model-image">
+          <img src="https://picsum.photos/seed/tihopod-two/480/360" alt="TihoPod Two" />
+        </div>
+        <h3>TihoPod Two</h3>
+        <p>Кабина для 2 человек</p>
+        <a href="product-two.html" class="btn secondary-btn">Узнать больше</a>
+      </div>
+      <!-- Карточка модели 2+ -->
+      <div class="model-card">
+        <div class="model-image">
+          <img src="https://picsum.photos/seed/tihopod-twoplus/480/360" alt="TihoPod Two+" />
+        </div>
+        <h3>TihoPod Two+</h3>
+        <p>Расширенная кабина на 2 человек</p>
+        <a href="product-twoplus.html" class="btn secondary-btn">Узнать больше</a>
+      </div>
+      <!-- Карточка модели 4 -->
+      <div class="model-card">
+        <div class="model-image">
+          <img src="https://picsum.photos/seed/tihopod-four/480/360" alt="TihoPod Four" />
+        </div>
+        <h3>TihoPod Four</h3>
+        <p>Кабина для групп до 4 человек</p>
+        <a href="product-four.html" class="btn secondary-btn">Узнать больше</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Как это работает -->
+  <section class="how-it-works">
+    <h2>Как это работает</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <h3>Выберите модель</h3>
+        <p>Выберите подходящую кабину: One, Two, Two+ или Four – в зависимости от ваших задач и количества людей.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <h3>Выберите брендирование</h3>
+        <p>Опционально: сенсорное затемнение стёкол, маркерная доска, фирменный стиль и логотипы на панели.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <h3>Добавьте опции</h3>
+        <p>Дополнительно: любой цвет и материалы отделки, мультимедиа оборудование, дополнительная мебель и др. опции для комфорта.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Галерея клиентов / Нас выбирают -->
+  <section class="clients">
+    <h2>Нас выбирают</h2>
+    <div class="client-gallery">
+      <div class="client-item">
+        <img src="https://picsum.photos/seed/client-gpn/240/120" alt="Газпром нефть" />
+        <p>Газпром нефть</p>
+      </div>
+      <div class="client-item">
+        <img src="https://picsum.photos/seed/client-2/240/120" alt="Клиент 2" />
+        <p>Компания 2</p>
+      </div>
+      <div class="client-item">
+        <img src="https://picsum.photos/seed/client-3/240/120" alt="Клиент 3" />
+        <p>Компания 3</p>
+      </div>
+      <div class="client-item">
+        <img src="https://picsum.photos/seed/client-4/240/120" alt="Клиент 4" />
+        <p>Компания 4</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Форма обратной связи -->
+  <section class="contact-form-section">
+    <h2>Получите индивидуальную консультацию</h2>
+    <form class="contact-form">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Ваше имя" required />
+      </div>
+      <div class="form-row">
+        <input type="tel" name="phone" placeholder="Телефон" required />
+      </div>
+      <div class="form-row">
+        <input type="email" name="email" placeholder="E-mail" required />
+      </div>
+      <div class="form-row">
+        <input type="text" name="city" placeholder="Город" />
+      </div>
+      <div class="form-row">
+        <input type="text" name="company" placeholder="Компания" />
+      </div>
+      <div class="form-row">
+        <textarea name="comment" placeholder="Комментарий" rows="3"></textarea>
+      </div>
+      <div class="form-row checkbox-row">
+        <label>
+          <input type="checkbox" name="agree" required />
+          <span>Согласен(а) на обработку персональных данных</span>
+        </label>
+      </div>
+      <button type="submit" class="btn primary-btn">Отправить заявку</button>
+    </form>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <div class="footer-logo">TihoPod</div>
+        <p>© 2025 TihoPod. Все права защищены.</p>
+        <p><a href="#">Политика конфиденциальности</a></p>
+      </div>
+      <div class="footer-right">
+        <div class="footer-col">
+          <h3>Кабины</h3>
+          <ul>
+            <li><a href="product-one.html">TihoPod One</a></li>
+            <li><a href="product-two.html">TihoPod Two</a></li>
+            <li><a href="product-twoplus.html">TihoPod Two+</a></li>
+            <li><a href="product-four.html">TihoPod Four</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Контакты</h3>
+          <p><a href="tel:+79999999999">+7 999 999-99-99</a></p>
+          <p><a href="mailto:info@tihopod.com">info@tihopod.com</a></p>
+          <p><a href="#">WhatsApp</a> | <a href="#">Telegram</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Модальное окно: Форма заявки -->
+  <div class="modal" id="requestModal">
+    <div class="modal-content">
+      <a href="#" class="modal-close">&times;</a>
+      <h2>Отправить заявку</h2>
+      <form class="request-form">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Ваше имя" required />
+        </div>
+        <div class="form-row">
+          <input type="text" name="company" placeholder="Название компании" />
+        </div>
+        <div class="form-row">
+          <input type="text" name="city" placeholder="Город мероприятия" />
+        </div>
+        <div class="form-row">
+          <input type="email" name="email" placeholder="E-mail" required />
+        </div>
+        <div class="form-row">
+          <textarea name="comment" placeholder="Укажите кабины, количество, дату и место, необходимые дополнительные услуги" rows="4"></textarea>
+        </div>
+        <div class="form-row">
+          <button type="submit" class="btn primary-btn">Заказать</button>
+        </div>
+        <p class="personal-data-note">Нажимая «Заказать», вы даёте согласие на обработку персональных данных.</p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Модальное окно: Уведомление об успешной отправке -->
+  <div class="modal" id="successModal">
+    <div class="modal-content success">
+      <a href="#" class="modal-close">&times;</a>
+      <div class="success-message">
+        <p><strong>Отправлено!</strong></p>
+        <p>Спасибо, ваша заявка успешно отправлена.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
